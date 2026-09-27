@@ -1,0 +1,23 @@
+public class StringManipulationDemo{
+    public static void main(String[] args){
+        String name = "sriram:";
+        System.out.println(name.charAt(0));
+        System.out.println(name.length());
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase());
+        System.out.println(name.trim());
+        System.out.println(name.replace('r','R'));
+        System.out.println(name.replace("sriram","sri"));
+        System.out.println(name.startsWith("s"));
+        System.out.println(name.endsWith("m"));
+        System.out.println(name.indexOf("r"));
+        System.out.println(name.lastIndexOf("r"));
+        System.out.println(name.substring(2,5));
+        System.out.println(name.substring(2));
+        System.out.println(name);
+        name=name.replace("r","R");
+        System.out.println(name);
+        
+       
+    }
+}
